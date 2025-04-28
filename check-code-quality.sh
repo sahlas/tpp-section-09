@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+
 black --config .black.toml .
 pylint --rcfile .pylintrc *.py
 flake8 --config .flake8
