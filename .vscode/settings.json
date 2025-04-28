@@ -8,13 +8,13 @@
     "editor.codeActionsOnSave": {
         "source.organizeImports": "always"
     },
-    "editor.rulers": [ 
+    "editor.rulers": [
         {
-            "color": "#1c1cdb", "column": 
+            "color": "#1c1cdb", "column":
             79
         },
         {
-            "color": "#dfd1c69f", "column": 
+            "color": "#dfd1c69f", "column":
             99
         }
     ],
@@ -36,6 +36,9 @@
     "isort.args": [
     "--profile",
     "black"
-]
-    
+],
+"[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+}
+
 }

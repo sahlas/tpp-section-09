@@ -22,6 +22,6 @@ extend-ignore =
     # H501: Do not use self.__dict__ for string formatting
     H501
 
-# radon    
+# radon
 radon-max-cc = 10
 exclude = venv
