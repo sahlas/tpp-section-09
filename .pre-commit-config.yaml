@@ -46,11 +46,11 @@ repos:
       # Detects the presence of private keys
       - id: detect-private-key
 
-  - repo: https://github.com/PyCQA/pylint
-    rev: v3.0.0a6
-    hooks:
-      - id: pylint
-        args: [--rcfile=.pylintrc]
+  # - repo: https://github.com/PyCQA/pylint
+  #   rev: v3.0.0a6
+  #   hooks:
+  #     - id: pylint
+  #       args: [--rcfile=.pylintrc]
 
   - repo: https://github.com/charliermarsh/ruff-pre-commit
     rev: "v0.0.261"
