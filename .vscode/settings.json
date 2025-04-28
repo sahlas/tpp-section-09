@@ -1,0 +1,41 @@
+{
+    "black-formatter.args": [
+        "--config ${workspaceFolder}/.black.toml"
+    ],
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always"
+    },
+    "editor.rulers": [ 
+        {
+            "color": "#1c1cdb", "column": 
+            79
+        },
+        {
+            "color": "#dfd1c69f", "column": 
+            99
+        }
+    ],
+    "pylint.args": [
+        "--disable=missing-class-docstring"
+    ],
+    "flake8.args": [
+        "--rcfile=.flake8"
+    ],
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+    "isort.args": [
+    "--profile",
+    "black"
+]
+    
+}
