@@ -7,4 +7,4 @@ pylint --rcfile .pylintrc *.py
 flake8 --config .flake8
 mypy . --exclude venv
 ruff check --config ruff.toml --fix
-isort . --settings .isort.cfg
+isort . --settings .isort.cfg --exclude venv
