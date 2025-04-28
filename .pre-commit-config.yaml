@@ -77,5 +77,4 @@ repos:
       - id: flake8
         additional_dependencies:
           - radon
-          - flake8-docstrings
         args: [--config=.flake8]
